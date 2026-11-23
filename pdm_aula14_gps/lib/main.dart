@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/geolocalizacao_screen.dart';
+import 'screens/checkin_perfil_screen.dart';
 
 void main() => runApp(const MeuApp());
 
@@ -10,12 +10,12 @@ class MeuApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Aula 14 GPS',
+      title: 'Check-in GPS & Perfil',
       theme: ThemeData(
         useMaterial3: true,
-        colorSchemeSeed: Colors.sky,
+        colorSchemeSeed: Colors.teal,
       ),
-      home: const GeolocalizacaoScreen(),
+      home: const CheckinPerfilScreen(),
     );
   }
 }
